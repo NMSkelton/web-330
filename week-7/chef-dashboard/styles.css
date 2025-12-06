@@ -3,9 +3,49 @@
   Chapter 3
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Nicholas Skelton
+  Date: 12.5.25
+  Filename: styles.css
 */
 
-/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(245, 245, 220, 0.781);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.chef-container {
+  padding: 20px;
+  border: 3px solid #2c3e50;
+  border-radius: 8px;
+  background: #fafafa;
+  text-align: center;
+}
+
+#chefGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+}
+
+.chef-container h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.chef-container ul {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.chef-container li {
+  list-style-position: inside;
+  text-align: center;
+  margin: 12px 0;
+  font-size: 1.4em;
+}
+
