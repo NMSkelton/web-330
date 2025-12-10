@@ -3,9 +3,60 @@
   Chapter 4
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Nicholas Skelton
+  Date: 12.8.25
+  Filename: styles.css
 */
 
-/* Add your styles here */
+body {
+  background-color: rgb(44, 44, 44);
+  color: rgb(253, 240, 203);
+  font-size: 2em;
+}
+
+#movie-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.movie-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#movie-image {
+  width: auto;
+  height: 850px;
+  border-radius: 5px;
+}
+
+#error-message {
+  text-align: center;
+  color: red;
+}
+
+input[type="text"] {
+  width: 15%;
+  padding: 8px;
+  border: 1px solid  rgb(253, 240, 203);
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  margin-left: 10px;
+  background: rgb(253, 240, 203);
+  color: rgb(44, 44, 44);
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#movie-form {
+  display: flex;
+  justify-content: center;
+}
